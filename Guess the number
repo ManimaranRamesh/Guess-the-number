@@ -1,0 +1,15 @@
+import random
+n=random.randint(1,150)
+guess=int(input("enter any one integer from 1 to 150:"))
+while n!="guess":
+    print
+    if guess<n:
+        print("Your guess is low")
+        guess=int(input("enter any one integer from 1 to 150:"))
+    elif guess>n:
+        print("Your guess is high")
+        guess=int(input("enter any one integer from 1 to 150:"))
+    else:
+        print("Hey programmer you guessed a number correctly!")
+        break
+        print
